@@ -1,0 +1,597 @@
+{
+    "user": [
+        {
+            "id": "1",
+            "name": "Baraa",
+            "email": "beraaceze@gmail.com",
+            "password": "beraaceze"
+        }
+    ],
+    "type": [
+        {
+            "id": 1,
+            "name": "Planet Foods",
+            "image": "https://www.pngmart.com/files/17/Fruits-Basket-PNG-Transparent-Image.png"
+        },
+        {
+            "id": 2,
+            "name": "Animal Foods",
+            "image": "https://www.pngmart.com/files/Anime-Food-Download-PNG-Image.png"
+        },
+        {
+            "id": 3,
+            "name": "Sweets",
+            "image": "https://www.pngmart.com/files/4/Cookies-PNG-File.png"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "type_id": 1,
+            "name": "Fruits"
+        },
+        {
+            "id": 2,
+            "type_id": 1,
+            "name": "Vegatables"
+        },
+        {
+            "id": 3,
+            "type_id": 1,
+            "name": "Legumes"
+        },
+        {
+            "id": 4,
+            "type_id": 1,
+            "name": "Grains"
+        },
+        {
+            "id": 5,
+            "type_id": 1,
+            "name": "Nuts"
+        },
+        {
+            "id": 6,
+            "type_id": 2,
+            "name": "Meat"
+        },
+        {
+            "id": 7,
+            "type_id": 2,
+            "name": "Fish"
+        },
+        {
+            "id": 8,
+            "type_id": 2,
+            "name": "Dairy Products"
+        },
+        {
+            "id": 9,
+            "type_id": 2,
+            "name": "Eggs"
+        }
+    ],
+    "foods": [
+        {
+            "id": 1,
+            "category_id": 1,
+            "name": "Apple",
+            "image": "https://img.freepik.com/free-psd/close-up-delicious-apple_23-2151868338.jpg?t=st=1741754274~exp=1741757874~hmac=0688dd15607f169610a86f5c8229b2970ed4981710cf58d734f86ad519d0f6f9&w=740",
+            "kcal": 52,
+            "protein": 0.3,
+            "carbs": 13.8,
+            "fats": 0.2,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 2,
+            "category_id": 1,
+            "name": "Banana",
+            "image": "https://img.freepik.com/premium-photo/bananas-isolated-ripe-bananas-peeled-sliced-bananas_531456-582.jpg?w=996",
+            "kcal": 89,
+            "protein": 1.1,
+            "carbs": 22.8,
+            "fats": 0.3,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 3,
+            "category_id": 2,
+            "name": "Potato",
+            "image": "https://img.freepik.com/free-photo/side-view-raw-potatoes-dish_141793-7235.jpg?t=st=1741754317~exp=1741757917~hmac=7fa052edc2859c672ae53976b696a363760b8d09aaaadd34a32d5aa574cd1126&w=740",
+            "kcal": 77,
+            "protein": 2,
+            "carbs": 17.6,
+            "fats": 0.1,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 4,
+            "category_id": 2,
+            "name": "Tomato",
+            "image": "https://img.freepik.com/free-photo/top-view-ripe-fresh-tomatoes-with-water-drops-black-background_141793-3432.jpg?t=st=1741754340~exp=1741757940~hmac=7a003de1edc1630540bd1aded7637804838421673a431a9e9d8a688c20302640&w=1380",
+            "kcal": 18,
+            "protein": 0.9,
+            "carbs": 3.9,
+            "fats": 0.2,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 5,
+            "category_id": 2,
+            "name": "Onion",
+            "image": "https://img.freepik.com/free-photo/close-up-view-basket-red-onions_141793-5351.jpg?t=st=1741754365~exp=1741757965~hmac=f23019970b88cb78a9b9486ae05c5df93640b6134e7fb655c685e973b58fd226&w=1060",
+            "kcal": 40,
+            "protein": 1.1,
+            "carbs": 9.3,
+            "fats": 0.1,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 6,
+            "category_id": 2,
+            "name": "Garlic",
+            "image": "https://img.freepik.com/premium-photo/series-images-shells-shells-with-one-being-blown-up_1156615-4132.jpg?w=826",
+            "kcal": 149,
+            "protein": 6.4,
+            "carbs": 33.1,
+            "fats": 0.5,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 7,
+            "category_id": 2,
+            "name": "Pepper",
+            "image": "https://img.freepik.com/free-photo/red-fresh-chili-peppers-isolated-white_114579-43541.jpg?t=st=1741754442~exp=1741758042~hmac=523729f3a178484fd9a6034a921c9f45e60c029d90e8c86b07de3e741e4b0545&w=1380",
+            "kcal": 20,
+            "protein": 0.9,
+            "carbs": 4.7,
+            "fats": 0.2,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 8,
+            "category_id": 3,
+            "name": "lentils",
+            "image": "https://img.freepik.com/free-photo/set-iron-spoon-red-lentils-red-bowl-dark-stone-table-top-view_176474-2169.jpg?t=st=1741752557~exp=1741756157~hmac=964839c64384d76313979bc8bead1a73dcf23d042aa00a56532b7b81b9b0f6d7&w=740",
+            "kcal": 353,
+            "protein": 25,
+            "carbs": 60,
+            "fats": 1.1,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 9,
+            "category_id": 3,
+            "name": "Chickpeas",
+            "image": "https://img.freepik.com/free-photo/top-view-boiled-chickpeas-bamboo-bowl_140725-8862.jpg?t=st=1741752705~exp=1741756305~hmac=1b751ff049a70db1a7ab6bfb2852e7b6c2cefe626a42b1f1b9c48883fe53e413&w=740",
+            "kcal": 364,
+            "protein": 19,
+            "carbs": 61,
+            "fats": 6,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 10,
+            "category_id": 3,
+            "name": "Black Beans",
+            "image": "https://img.freepik.com/free-photo/black-bean-small-wooden-plate-place-sack-fabric_1150-35414.jpg?t=st=1741752681~exp=1741756281~hmac=433e915ee767c1908effe78bec7dd5630e287cef21a191f7ae4c942a8bcbc0cf&w=1380",
+            "kcal": 339,
+            "protein": 21.6,
+            "carbs": 62.4,
+            "fats": 0.9,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 12,
+            "category_id": 4,
+            "name": "Rice",
+            "image": "https://img.freepik.com/premium-photo/rice-seeds-wood-bowl-isolated-white-background-top-view_253984-2790.jpg?w=900",
+            "kcal": 365,
+            "protein": 7,
+            "carbs": 80,
+            "fats": 0.7,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 13,
+            "category_id": 4,
+            "name": "oats",
+            "image": "https://img.freepik.com/premium-photo/oat-flakes-pile-wooden-bowl_29402-517.jpg?w=1380",
+            "kcal": 368,
+            "protein": 14.1,
+            "carbs": 64,
+            "fats": 6.1,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 14,
+            "category_id": 4,
+            "name": "bulgur",
+            "image": "https://img.freepik.com/premium-photo/dry-bulgur-wheat-grains-with-spoon-close-up_205832-5697.jpg?w=1380",
+            "kcal": 342,
+            "protein": 12.3,
+            "carbs": 75,
+            "fats": 13,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 15,
+            "category_id": 5,
+            "name": "Almonds",
+            "image": "https://img.freepik.com/premium-photo/heap-almonds-with-green-leaves-isolated-white-background_159938-2959.jpg?w=1380",
+            "kcal": 579,
+            "protein": 21.6,
+            "carbs": 21.6,
+            "fats": 49.9,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 16,
+            "category_id": 5,
+            "name": "walnuts",
+            "image": "https://img.freepik.com/premium-photo/walnut-kernels-white-bowl-beige-background_70216-401.jpg?w=740",
+            "kcal": 654,
+            "protein": 15.2,
+            "carbs": 13.7,
+            "fats": 65.2,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 17,
+            "category_id": 5,
+            "name": "cashews",
+            "image": "https://img.freepik.com/free-photo/walnuts-bowl_1127-119.jpg?t=st=1741753488~exp=1741757088~hmac=ed617f680e3defa26c700b3ae06b39d50f18c9767a8f930a5f9393fae5ad2c46&w=1380",
+            "kcal": 553,
+            "protein": 18.2,
+            "carbs": 30.2,
+            "fats": 43.8,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 18,
+            "category_id": 5,
+            "name": "pistachios",
+            "image": "https://img.freepik.com/premium-photo/bowl-with-pistachios-grey-concrete-table_87742-17031.jpg?w=996",
+            "kcal": 562,
+            "protein": 20.6,
+            "carbs": 28,
+            "fats": 45.3,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 19,
+            "category_id": 6,
+            "name": "Beef",
+            "image": "https://img.freepik.com/premium-photo/chopped-raw-beef-cutting-board-with-rosemary-knife_220925-40551.jpg?w=740",
+            "kcal": 165,
+            "protein": 31,
+            "carbs": 0,
+            "fats": 3.6,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 20,
+            "category_id": 6,
+            "name": "Lamb",
+            "image": "https://img.freepik.com/free-photo/lamb-leg-wooden-board-prepared-cook-tomato-broccoli-salt-top-view_141793-12253.jpg?t=st=1741753542~exp=1741757142~hmac=188a1a5c39dc1612e4b408c890873c8d854928acf275d2beacc4aa13af23503b&w=1380",
+            "kcal": 294,
+            "protein": 25,
+            "carbs": 0,
+            "fats": 21,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 21,
+            "category_id": 6,
+            "name": "Chicken Breast",
+            "image": "https://img.freepik.com/premium-photo/raw-chicken-breast_1472-511.jpg?w=1380",
+            "kcal": 165,
+            "protein": 31,
+            "carbs": 0,
+            "fats": 3.6,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 22,
+            "category_id": 6,
+            "name": "turkey",
+            "image": "https://img.freepik.com/premium-photo/raw-whole-farm-duck-with-herbs_89816-17006.jpg?w=740",
+            "kcal": 135,
+            "protein": 29,
+            "carbs": 0,
+            "fats": 1,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 23,
+            "category_id": 7,
+            "name": "salmon",
+            "image": "https://img.freepik.com/free-photo/slices-raw-red-salmon-flat-lay_23-2148637844.jpg?t=st=1741753865~exp=1741757465~hmac=b199f5fa69985dab8b0232078da21ae06c35a4f880e2b6970290c60189463077&w=740",
+            "kcal": 208,
+            "protein": 20,
+            "carbs": 0,
+            "fats": 13,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 24,
+            "category_id": 7,
+            "name": "tuna",
+            "image": "https://img.freepik.com/premium-photo/canned-tuna-fish-plate_55883-1539.jpg?w=1380",
+            "kcal": 132,
+            "protein": 28,
+            "carbs": 0,
+            "fats": 1,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 25,
+            "category_id": 7,
+            "name": "trout",
+            "image": "https://img.freepik.com/free-photo/top-view-delicious-trout-meal_23-2150353350.jpg?t=st=1741753939~exp=1741757539~hmac=78395aa99a062ad02b8eb4a6c4ffcb27ed80e6572d0ac8242f4a2d986b645ff0&w=1380",
+            "kcal": 148,
+            "protein": 19,
+            "carbs": 0,
+            "fats": 7,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 26,
+            "category_id": 7,
+            "name": "mackerel",
+            "image": "https://img.freepik.com/free-photo/smoked-sprat-green-onion-cutting-board-smoked-fish-top-view_2829-5319.jpg?t=st=1741753960~exp=1741757560~hmac=d5700cf1ab2b383e3e5f644f11e283af3c712bc98713788cc32c1d3595266a50&w=740",
+            "kcal": 305,
+            "protein": 20,
+            "carbs": 0,
+            "fats": 25,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 27,
+            "category_id": 8,
+            "name": "milk",
+            "image": "https://img.freepik.com/free-vector/milk-advertising-realistic-poster_1284-26187.jpg?t=st=1741754129~exp=1741757729~hmac=5a2b8bc2ebdf1868676db71cdcdfb0f6867101787d9c4357c25afe093bc92b77&w=1060",
+            "kcal": 42,
+            "protein": 3.4,
+            "carbs": 4.8,
+            "fats": 1,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 28,
+            "category_id": 8,
+            "name": "yogurt",
+            "image": "https://img.freepik.com/free-vector/food-ad-template-yogurt_23-2148449857.jpg?t=st=1741754152~exp=1741757752~hmac=6f7fae83bdeee5f24d05325c0d26f4f10b14aea6cd6a75672959e6585e69e337&w=1380",
+            "kcal": 59,
+            "protein": 10,
+            "carbs": 3.6,
+            "fats": 0.4,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 29,
+            "category_id": 8,
+            "name": "cheddar cheese",
+            "image": "https://img.freepik.com/free-photo/front-view-sliced-fresh-cheese-light-snack-color-photo-food-breakfast_140725-93148.jpg?t=st=1741754175~exp=1741757775~hmac=294ae1680acb9020657b8c731a01a38dfbcc15ee463e6198c1f3559409968b59&w=740",
+            "kcal": 402,
+            "protein": 25,
+            "carbs": 1.3,
+            "fats": 33,
+            "weight": 100,
+            "weightType": "gram"
+        },
+        {
+            "id": 30,
+            "category_id": 8,
+            "name": "butter",
+            "image": "https://img.freepik.com/free-vector/promotion-banner-with-realistic-yellow-stick-butter-cutting-board-metal-knife_1441-1868.jpg?t=st=1741754208~exp=1741757808~hmac=64272e3ed3c43ae432c5997614bad6ef56247dfe240238f0d33031a0ec78973a&w=1380",
+            "kcal": 717,
+            "protein": 0.9,
+            "carbs": 0.1,
+            "fats": 81,
+            "weight": 100,
+            "weightType": "gram"
+        }
+    ],
+    "exerciseType": [
+        {
+            "id": 1,
+            "name": "High-Calorie Burn",
+            "image": "https://imgs.search.brave.com/JLWrnTmOPo8HZl_64HUam1GmpVudSG_dsR50_t9_O-o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy95b3Vu/Zy1ibGFjay1hdGhs/ZXRlLW1ha2luZy1h/bi1lZmZvcnQtd2hp/bGUtcm95YWx0eS1m/cmVlLWltYWdlLTE2/OTAzMTA3NzIuanBn/P2Nyb3A9MC42Njh4/dzoxLjAweGg7MC4y/MzN4dywwJnJlc2l6/ZT02NDA6Kg"
+        },
+        {
+            "id": 2,
+            "name": "Moderate-Calorie Burn",
+            "image": "https://imgs.search.brave.com/vfIThBGwbv47CM7CYzfIxh1JqhoPZZMtkLjynJ10XV4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTk5/MTE5NjA4L3Bob3Rv/L2FiZG9taW5hbC1l/eGVyY2lzZXMtaW4t/YS1maXRuZXNzLWNs/YXNzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1tbzB0VGZq/d1hMWjE4cHVPWWlD/Q3pDeTB6d1RKMUx0/N05oX3BuUU5QMlEw/PQ"
+        },
+        {
+            "id": 3,
+            "name": "Low-Calorie Burn",
+            "image": "https://imgs.search.brave.com/P4-GiSwQzK4LKbLOfv13yTe5BwXNf32mH8qixC-1Xds/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQwLzc5Lzg4/LzM2MF9GXzM0MDc5/ODg1NV9wR2FzalpD/SzY0V0ZkTWVTZGhN/TU9Ca2VBUjBNUWNa/Ni5qcGc"
+        }
+    ],
+    "exercise": [
+        {
+            "id": 1,
+            "exerciseType_Id": 3,
+            "name": "Running at 12 km/h",
+            "met": 12.5,
+            "image": "https://imgs.search.brave.com/AZs4Zt_Kkf_jOwho2VPrHC5XcOfyPfgABhjElMf3WrY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9jaGVj/a2luZy1oZWFydGJl/YXQtYW5kLXByZXNz/dXJlLWR1cmluZy1q/b2dnaW5nLXJveWFs/dHktZnJlZS1pbWFn/ZS0xNzQxOTQ4NDgz/LnBqcGVnP2Nyb3A9/MC42NzB4dzoxLjAw/eGg7MC4xNjZ4dyww/JnJlc2l6ZT0zNjA6/Kg"
+        },
+        {
+            "id": 2,
+            "exerciseType_Id": 3,
+            "name": "Running at 10 km/h",
+            "met": 9.8,
+            "image": "https://imgs.search.brave.com/U1A-P5SzPv3doZRAdgEzixROvKuEkW8GY1U7lKa8-Cc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/MjIwdHJpYXRobG9u/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/c2l0ZXMvNC8yMDIz/LzA3L21hbi1ydW5u/aW5nLWluLXJhY2Ut/cGV4ZWxzLWNkMDdl/N2EuanBn"
+        },
+        {
+            "id": 3,
+            "exerciseType_Id": 3,
+            "name": "Sprint Intervals",
+            "met": 12,
+            "image": "https://imgs.search.brave.com/vnqm3x3_gEjYXKs4uoNvNRpqfhaSgNEKF0_tXTpcicU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9hdGhs/ZXRlcy1kb2luZy1w/dXNoLXVwcy13aXRo/LWR1bWJiZWxscy1v/bi1mbG9vci1yb3lh/bHR5LWZyZWUtaW1h/Z2UtMTYzODQ2MzU3/My5qcGc_Y3JvcD0w/LjY2OHh3OjEuMDB4/aDswLjIyOHh3LDAm/cmVzaXplPTM2MDoq"
+        },
+        {
+            "id": 4,
+            "exerciseType_Id": 3,
+            "name": "Fast Jump Rope",
+            "met": 12,
+            "image": "https://imgs.search.brave.com/5vzDq_Q2OsAei1zCX-Kw6yEN2wpqYWG6ADSPnWMAx9o/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvMTQ4/NTY5MDA1L3N0b2Nr/LXBob3RvLXNwb3J0/eS1tYW4td29ya2lu/Zy1vbi1qdW1wLXJv/cGU.jpeg"
+        },
+        {
+            "id": 5,
+            "exerciseType_Id": 2,
+            "name": "Moderate Jump Rope",
+            "met": 10,
+            "image": "https://imgs.search.brave.com/R4uONgKL6IaIrbTo4TcXbw3BCZm0k-wtqCFckv2oeNI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9nZXR0/eWltYWdlcy0xNjU4/ODQ0NzczLmpwZz9j/cm9wPTAuNjU4eHc6/MC45ODd4aDswLjIx/NHh3LDAmcmVzaXpl/PTY0MDoq"
+        },
+        {
+            "id": 6,
+            "exerciseType_Id": 3,
+            "name": "Single-Leg Jump Rope",
+            "met": 11,
+            "image": "https://imgs.search.brave.com/Nprmg8287aQfzw4f2-cxGKDL2pTYpRciA3Y5cxqAoPU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9lbGl0/ZWp1bXBzLmNvL2Nk/bi9zaG9wL2FydGlj/bGVzL0RvZXNfSnVt/cGluZ19Sb3BlX0J1/aWxkX1lvdXJfQ2Fs/dmVzLmpwZz92PTE3/NDAwMDQzNTImd2lk/dGg9NDgw"
+        },
+        {
+            "id": 7,
+            "exerciseType_Id": 2,
+            "name": "Freestyle Swimming",
+            "met": 8,
+            "image": "https://imgs.search.brave.com/lIRSy7pILHxMarVkAry-A45P9Sjm3RIkgr_lPSz2Hco/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU4/NjU2Mjc3L3Bob3Rv/L3N3aW1taW5nLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1J/dEFEeFZCZkl3UUZP/R0lwT1RGcVkxQVVx/d2JELTVlY2dpTTB2/SGFQUE9ZPQ"
+        },
+        {
+            "id": 8,
+            "exerciseType_Id": 3,
+            "name": "Butterfly Stroke Swimming",
+            "met": 13.8,
+            "image": "https://imgs.search.brave.com/Zwk8M6KxZp5NeMKi7h4qTO4cL6tIApWssgLP09Xbb3E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTE5/NjU4Mzg2L3Bob3Rv/L2ZlbWFsZS1zd2lt/bWVyLWluLXN3aW1t/aW5nLXBvb2wuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPWdW/WS1MRU5UUXNpWWlB/SmRnVVNXU1FWdHpR/REhsdjBQbDNKWWw0/VzZVM2s9"
+        },
+        {
+            "id": 9,
+            "exerciseType_Id": 2,
+            "name": "Backstroke Swimming",
+            "met": 7,
+            "image": "https://imgs.search.brave.com/hm9mXs-p569UL5aF2NEiptvzkNLcv_6iXkNCojd4ybs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDcy/MDgxNDYzL3Bob3Rv/L3N3aW1taW5nLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz0z/YmdablhBYkt6VzI2/OEd4ODBCcXkzcERS/RzB4X3BkQy0wV0FK/anJQTlhrPQ"
+        },
+        {
+            "id": 10,
+            "exerciseType_Id": 2,
+            "name": "Heavy Bag Boxing",
+            "met": 7.8,
+            "image": "https://imgs.search.brave.com/sNNE3zZpX5yYe9JZ2PAF5qK7GyVNa8Iq-OHYVDMFfSk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM0/NzE5MTIyNy9waG90/by9tYW4tYm94aW5n/LWluLWEtZ3ltLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1J/LTI1aGxodTRUeXR6/N2lPNVRkVjVZOWxX/V280cmpIUUV3cVdp/bk1ibnA0PQ"
+        },
+        {
+            "id": 11,
+            "exerciseType_Id": 3,
+            "name": "Sparring Boxing",
+            "met": 10,
+            "image": "https://imgs.search.brave.com/OcJ-fQujPJmFKdnJOeyAdSp0rx01hKBAoBlK_G4-PRs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTIx/NDg5OTAvcGhvdG8v/Ym94aW5nLW1hdGNo/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz14dDJFTGRYazZt/UV95Wlc3ZVZjdzky/VWxGNWphS21ZRktG/VGt4LXpjUHpzPQ"
+        },
+        {
+            "id": 12,
+            "exerciseType_Id": 2,
+            "name": "Kickboxing",
+            "met": 8,
+            "image": "https://imgs.search.brave.com/s0a9WcWRhvsZB8g5MEzVcH-7Ge5l2H4dG8JFzQwBF-E/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTEx/MjA3NzEyL3Bob3Rv/L3lvdW5nLW1hbi1p/bi1raWNrYm94aW5n/LXRyYWluaW5nLWNl/bnRlci5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9QzlVdDZX/UEE3X0xEQWtoczlK/Njh5bTNyYVYwdlo3/eEFZTmF4R2dUUWQt/ND0"
+        },
+        {
+            "id": 13,
+            "exerciseType_Id": 2,
+            "name": "Cycling at 20-25 km/h",
+            "met": 8,
+            "image": "https://imgs.search.brave.com/XoT_YMbg8rw4PkKUc2p-q6z2USQGMDe7yI01pcwKPB0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9qb25h/cy1hYnJhaGFtc2Vu/LW9mLW5vcndheS1h/bmQtdGVhbS11bm8t/eC1tb2JpbGl0eS1w/b2xrYS1uZXdzLXBo/b3RvLTE3MjA2MjQ5/OTEuanBnP2Nyb3A9/MC42NzB4dzoxLjAw/eGg7MC4yMjF4dyww/JnJlc2l6ZT0zNjA6/Kg"
+        },
+        {
+            "id": 14,
+            "exerciseType_Id": 3,
+            "name": "Mountain Biking",
+            "met": 10,
+            "image": "https://imgs.search.brave.com/BMyhzU7yP_XxmOkeh_l_1M7soeRp9RaXD1g77m7gVjM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM2/NTIzOTEwNC9waG90/by9sYWRpZXMtbW91/bnRhaW4tYmlraW5n/LWNvbG9yYWRvLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1t/V0poVnVWSS1mSFpG/X0FyX1lGaDZueldE/Zm9xRkRETFYtQ1Rp/SXpPS0tBPQ"
+        },
+        {
+            "id": 15,
+            "exerciseType_Id": 2,
+            "name": "Spinning",
+            "met": 9,
+            "image": "https://imgs.search.brave.com/Vnx5MhbZTQBi8MUFJEJ21JDdDgm2RcrAT1_gAcKYSCU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zZW5p/b3ItY291cGxlLXNw/aW5uaW5nLWJpa2Vz/LTE2ODA2Nzc3Lmpw/Zw"
+        },
+        {
+            "id": 16,
+            "exerciseType_Id": 3,
+            "name": "Burpees",
+            "met": 10,
+            "image": "https://imgs.search.brave.com/j11CVFwIOteBFwoHODu8pI7J-uL997ksZzWElgxZ5ik/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/dWxsLXNob3QtZml0/LW1hbi1kb2luZy1i/dXJwZWUtY2xvc2V0/XzIzLTIxNDkzNTY5/NzEuanBnP3NlbXQ9/YWlzX2h5YnJpZA"
+        },
+        {
+            "id": 17,
+            "exerciseType_Id": 2,
+            "name": "Jump Squats",
+            "met": 8,
+            "image": "https://imgs.search.brave.com/2uOouJtzCPCJR1KUt7nvBe6HvAoR2s0r_KXppOOjMGE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ3/MTkzNDk5NS9waG90/by9tYW4tZG9pbmct/anVtcGluZy1zcXVh/dHMtYXQtc3BvcnRz/LXRyYWNrLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz01SHh5/MFRXb0N1YXBNeHBX/RnF5cjA5c01Gd2Nw/QlNXaVdscms3OWE3/OFBnPQ"
+        },
+        {
+            "id": 18,
+            "exerciseType_Id": 2,
+            "name": "Push-ups to Jumps",
+            "met": 8.5,
+            "image": "https://imgs.search.brave.com/I3N8c-RQOmjGCGWZWYvjns0krjrNgZKEyHkR3dqGS1I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDY1/MTE1NjUwL3Bob3Rv/L2RvaW5nLXB1c2gt/dXBzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1IX2JKMUxB/cUJVZTZOVDlJVl9z/M3JIT3ZQWDVOQWNY/djlnV0wwX082WDFV/PQ"
+        },
+        {
+            "id": 19,
+            "exerciseType_Id": 1,
+            "name": "Brisk Walking at 5 km/h",
+            "met": 4.3,
+            "image": "https://imgs.search.brave.com/jIRtFhUoLdl3vB1IvdxempCLEDGv87kypR4tpbm2A30/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9zbmVh/a2Vycy13YWxraW5n/LXdvcmtvdXQtMTY2/NTA4OTE4OS5qcGc_/Y3JvcD0xeHc6MC44/NDM3NXhoO2NlbnRl/cix0b3AmcmVzaXpl/PTEyMDA6Kg"
+        },
+        {
+            "id": 20,
+            "exerciseType_Id": 1,
+            "name": "Brisk Walking at 6 km/h",
+            "met": 5,
+            "image": "https://imgs.search.brave.com/KLTMfKLMLGLzNqz6HHzj3fsS0x2MDbWG33E98XVUwbA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW5kaWFuZXhw/cmVzcy5jb20vMjAy/My8xMi9icmlzay13/YWxraW5nLmpwZz93/PTY0MA"
+        },
+        {
+            "id": 21,
+            "exerciseType_Id": 2,
+            "name": "Inclined Walking",
+            "met": 6,
+            "image": "https://imgs.search.brave.com/4UWkrAiTpmijFzK2qKNTb8vHItHG4QkhpbecZGTCbew/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9ydW50/b3RoZWZpbmlzaC5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMTAvaW5jbGlu/ZS13YWxraW5nLWZv/cm0uanBn"
+        },
+        {
+            "id": 22,
+            "exerciseType_Id": 1,
+            "name": "Hatha Yoga",
+            "met": 2.5,
+            "image": "https://imgs.search.brave.com/4VYtim5oUdCeRxRR9DgMklGl7f3h7NkC4SNsN1cXfmY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAwLzAxLzU4Lzk2/LzM2MF9GXzE1ODk2/MTBfbWlTS0xNc2t6/RUZ1ZDl0bGRmWDNI/bktMTU5PUHZvLmpw/Zw"
+        }
+    ]
+}
