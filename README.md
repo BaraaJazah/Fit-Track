@@ -4,6 +4,8 @@ A fitness and nutrition tracking app designed to help users achieve their health
 
 📅 Date: 08 / 04 / 2025
 
+▶️ Youtube : https://youtu.be/dUuna54WCIE
+
 ## Project Features:
 
 ✅ Calculate daily needs for calories, fats, carbohydrates, and proteins based on user’s goal (weight gain or weight loss)
