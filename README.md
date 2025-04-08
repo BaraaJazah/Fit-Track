@@ -1,6 +1,6 @@
 # FitTrack ( 📱Mobile Application )
 
-A smart fitness and nutrition tracking app designed to help users achieve their health goals, whether it’s weight loss, muscle gain, or maintenance. Users can calculate their daily calorie and macronutrient needs based on their personal goals, log meals and workouts, and monitor their daily intake and expenditure in real-time.
+A fitness and nutrition tracking app designed to help users achieve their health goals, whether it’s weight loss, muscle gain, or maintenance. Users can calculate their daily calorie and macronutrient needs based on their personal goals, log meals and workouts, and monitor their daily intake and expenditure in real-time.
 
 📅 Date: 08 / 04 / 2025
 
