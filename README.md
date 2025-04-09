@@ -4,7 +4,7 @@ A fitness and nutrition tracking app designed to help users achieve their health
 
 📅 Date: 08 / 04 / 2025
 
-▶️ Youtube : https://youtu.be/dUuna54WCIE
+▶️ Youtube : https://youtu.be/PM7NL6fLQVE
 
 ## Project Features:
 
