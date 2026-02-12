@@ -40,7 +40,7 @@ State Management:  Redux
 
 ![Image](https://github.com/user-attachments/assets/c93f2a0f-c1e6-456a-bdac-982844ef1578)
 
-![Image](https://github.com/user-attachments/assets/39c1449d-11b7-4fac-a4d7-805bc7e5ffce) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Image](https://github.com/user-attachments/assets/7f0018ce-2548-4334-9055-26ade1efa435)
+![Image](https://github.com/user-attachments/assets/39c1449d-11b7-4fac-a4d7-805bc7e5ffce)  ![Image](https://github.com/user-attachments/assets/7f0018ce-2548-4334-9055-26ade1efa435)
 
 ![Image](https://github.com/user-attachments/assets/cad54c12-a454-4edb-b119-7930f7452c40) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Image](https://github.com/user-attachments/assets/7c5a5632-2744-4757-be1f-3cc09b3d9713)
 
