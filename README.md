@@ -38,11 +38,8 @@ State Management:  Redux
 ## 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
-![Image](https://github.com/user-attachments/assets/c93f2a0f-c1e6-456a-bdac-982844ef1578)
+![Image](https://github.com/user-attachments/assets/33f10ea0-ab0d-411e-9633-0ed5fd88b16d) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Image](https://github.com/user-attachments/assets/4597726b-6adc-4a92-8aaa-71d7db874be5)
 
-![Image](https://github.com/user-attachments/assets/39c1449d-11b7-4fac-a4d7-805bc7e5ffce)  ![Image](https://github.com/user-attachments/assets/7f0018ce-2548-4334-9055-26ade1efa435)
+![Image](https://github.com/user-attachments/assets/dde58ea0-8bfa-4478-83e9-506d8e6244ab) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Image](https://github.com/user-attachments/assets/3e390e76-595e-424f-890e-bf8077d4b383)
 
-![Image](https://github.com/user-attachments/assets/cad54c12-a454-4edb-b119-7930f7452c40) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Image](https://github.com/user-attachments/assets/7c5a5632-2744-4757-be1f-3cc09b3d9713)
-
-![Image](https://github.com/user-attachments/assets/6e1fe107-4947-4fbf-a23f-16fc960a4746) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Image](https://github.com/user-attachments/assets/079914d1-8e03-412e-b8de-06b8b91dc57b)
-
+![Image](https://github.com/user-attachments/assets/719d748e-a878-4247-adb5-eb4c74d5e338) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Image](https://github.com/user-attachments/assets/ccb1684b-3307-429d-a0f3-1651db23c6bd)
