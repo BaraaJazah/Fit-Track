@@ -15,6 +15,10 @@ A fitness and nutrition tracking app designed to help users achieve their health
 
 ✅ Add custom meals with user-defined calories and macros
 
+✅ AI-Powered Diet Assistant integrated with Gemini API for automated, personalized meal generation
+
+✅ Smart AI suggestions to modify and optimize daily recipes based on current weight and metabolic tracking
+
 ✅ Access a complete food database with nutrition facts for thousands of foods
 
 ✅ Add and track workouts with automatic calculation of burned calories
