@@ -4,7 +4,6 @@ A fitness and nutrition tracking app designed to help users achieve their health
 
 📅 Date: 08 / 08 / 2024
 
-▶️ Youtube : https://youtu.be/NptIpU7_dHw
 
 ## Project Features:
 
